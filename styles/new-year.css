@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* playing with header */
+
+.header{
+
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 980px;
+    
+}
+
+.banner{
+
+    text-align: right;
+    margin-right: 230px;
+    padding-top: 216px;
+}
+.banner-title{
+
+    font-weight: 700;
+    font-size: 65px;
+    color: aliceblue;
+
+    margin-bottom: 24px;
+
+}
+
+.banner-description{
+
+
+    font-weight: 400;
+    font-size: 16px;
+    color: aliceblue;
+    line-height: 25px;
+    margin-bottom: 32px;
+  
+
+}
+
+.primary-btn{
+
+    background:  aliceblue;
+    color:#005FAC;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 26px;
+    border-radius: 5px;
+
+}
+
+
+/* my-failures section  */
+
+
+.failures-section{
+
+    margin: 130px 300px 130px;
+
+}
+
+.my-failures{
+
+
+    display: flex;
+   justify-content: center;
+    
+
+}
+
+.my-failures-person{
+  
+    margin-right: 87px;
+}
+
+.my-failures-title{
+
+    margin-top: 240px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+
+}
+
+.my-failures-description{
+
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* my plans styles */
+
+.my-plan-parent-div{
+
+    display: flex;
+    justify-content: center;
+    gap: 84px;
+}
+
+.plans-h3-tag{
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+
+.my-plan-div{
+
+    justify-content: space-around;
+}
+
+.my-plan-title{
+
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.my-plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color:#737272 ;
+
+}
+
+.my-plan-section{
+
+    margin-bottom: 130px;
+}
+
+/* gradient and watch section  */
+
+
+.watch-div-img{
+
+    background-image: url('../images/gradient1.png'),url('../images/watch.png');
+    background-repeat: no-repeat;
+    min-height: 250px;
+    justify-content: center ;
+    background-position: center,center;
+    margin-bottom: 130px;
+    position: relative;
+}
+
+
+.watch-title{
+
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 450px;
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+
+.watch-btn{
+
+    background:  aliceblue;
+    color:#005FAC;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 26px;
+    border-radius: 5px;
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+} 
+
+
+/* personal section  */
+
+.my-personal-parent-div{
+
+
+    display: flex;
+    padding-top:120px;
+    padding-bottom: 120px;
+    
+    gap: 40px;
+    justify-content: center;
+
+
+}
+
+
+/* future and subscribe part  */
+
+.footer-section{
+
+    background-color: black;
+    color: aliceblue;
+
+    padding-top: 130px;
+}
+
+
+
+.footer-parent-div{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 330px;
+
+
+}
+
+.future-title{
+
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+
+}
+
+.future-description{
+
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-bottom: 24px;
+
+}
+
+.future-email{
+
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+
+}
+
+.future-phone{
+
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-bottom: 32px;
+
+}
+
+.socials{
+
+    margin-bottom: 130px;
+   
+}
+
+.socials a{
+
+    text-decoration: none;
+}
+
+.subscribe{
+
+    font-weight: 600;
+    font-size: 25px; 
+    margin-bottom: 31px;
+     
+    
+
+}
+
+.sub-email{
+
+
+    padding-top: 21px;
+    padding-left: 21px;
+    padding-bottom: 21px;
+    padding-right: 160px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.subscribe-btn{
+
+    border: none;
+    margin-top: 16px;
+    background-color: #005FAC;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 20px 36px;
+
+}
+
+
+
